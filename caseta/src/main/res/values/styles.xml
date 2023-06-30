@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_green_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_green_dark</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="caratulaBasica">
+        <item name="caratula_color">#ffffef</item>
+        <item name="cassete_color">#404040</item>
+        <item name="pie_color">#313131</item>
+        <item name="bg_color">#efefef</item>
+    </style>
+
+    <style name="caratulaLeyendiosa" parent="caratulaBasica">
+        <item name="caratula_color">#ffffff</item>
+        <item name="cassete_color">#dfcda5</item>
+        <item name="pie_color">#caba96</item>
+        <item name="bg_color">#664466</item>
+    </style>
+
+</resources>
