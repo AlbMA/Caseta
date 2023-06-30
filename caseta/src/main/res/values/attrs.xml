@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="caratula">
+        <attr name="caratula_color" format="color" />
+        <attr name="cassete_color" format="color" />
+        <attr name="pie_color" format="color" />
+        <attr name="bg_color" format="color" />
+    </declare-styleable>
+</resources>
